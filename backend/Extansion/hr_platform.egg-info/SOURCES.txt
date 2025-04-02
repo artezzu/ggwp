@@ -1,0 +1,11 @@
+README.md
+setup.py
+backend/__init__.py
+backend/config.py
+backend/hh_parser.py
+backend/main.py
+backend/migrate.py
+hr_platform.egg-info/PKG-INFO
+hr_platform.egg-info/SOURCES.txt
+hr_platform.egg-info/dependency_links.txt
+hr_platform.egg-info/top_level.txt
