@@ -47,6 +47,8 @@ services:
     container_name: abstract_hr_frontend
     depends_on:
       - backend
+    environment:
+      - NEXT_PUBLIC_API_URL=http://109.73.198.72/api
     ports:
       - "${FRONTEND_PORT:-3000}:3000"
     restart: unless-stopped
